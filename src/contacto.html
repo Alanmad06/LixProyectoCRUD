@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        
+        <link rel="icon" type="image/x-icon" href="../img/logo.png">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <style>
+
+            .navbar {
+                background-image: url('../img/libros1.jpg');
+                background-position: 50% 30%;
+                height: 80px; 
+            }
+            
+        </style>
+        
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="../index.html">LIX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Libros
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="librosInsertar.html">Ingresar Libros</a></li>
+                              <li><a class="dropdown-item" href="librosActualizar.html">Actualizar Libros</a></li>
+                              <li><a class="dropdown-item" href="../php/librosVer.php">Ver Libros</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a>
+                        </li>
+                        
+                    </ul>
+
+                    <input class="btn btn-success d-flex" type="button" value="Registrarse"
+                    onclick="location.href='registro.html'">
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="container my-5">
+
+            <h1>Contáctanos</h1>
+
+            <div class="shadow my-5 p-3 mb-5 bg-white rounded">
+                
+                <ul>
+                    <li>
+                        <h2>Luis Felipe Hernández Briseño</h2>
+                        <p>
+                            <a href="https://www.facebook.com/LuisHdez" target="_blank">Facebook.com/LuisHdez</a>
+                        </p>
+                        <p>Teléfono: 333-1234</p>
+                        <p>Email: luisHB@gmail.com</p>
+                    </li>
+
+                    <li>
+                        <h2>Alan Madrigal Sáenz</h2>
+                        <p>
+                            <a href="https://www.facebook.com/AlanMSaenz" target="_blank">Facebook.com/AlanMSaenz</a>
+                        </p>
+                        <p>Teléfono: 333-5678</p>
+                        <p>Email: alanMS@gmail.com</p>
+                    </li>
+
+                    <li>
+                        <h2>Miguel Ángel Hernández González</h2>
+                        <p>
+                            <a href="https://www.facebook.com/AngelHdezzz" target="_blank">Facebook.com/AngelHdezzz</a>
+                        </p>
+                        <p>Teléfono: 333-9012</p>
+                        <p>Email: miguelHG@gmail.com</p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <footer class="bg-dark text-light py-3">
+
+            <div class="container">
+
+              <div class="row">
+
+                <div class="col-md-6">
+                  <p>©Lix</p>
+                </div>
+
+                <div class="col-md-6 text-md-end">
+                  <p>Derechos de autor © 2023 Todos los derechos reservados</p>
+                </div>
+
+              </div>
+
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LIX: Inicio</title>
+
+        <link rel="icon" type="image/x-icon" href="../img/logo.png">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <style>
+            .navbar {
+              background-image: url('../img/libros1.jpg');
+              background-position: 50% 30%;
+              height: 80px; 
+            }
+            
+            
+          </style>
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="../index.html">LIX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="libros.html">Libros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a>
+                        </li>
+                    </ul>
+
+                    <input class="btn btn-outline-success d-flex" type="button" value="Registrarse"
+                    onclick="location.href='registro.html'">
+
+                </div>
+
+            </div>
+
+        </nav>
+        
+        <div class="container">
+
+            <div class="row-justify-md-center">
+
+                <div class="col-md-6">
+                    
+                    <form action="../php/libros.php" method ="POST">
+            
+                        <div class="form-group">
+
+                            <input class="form-control my-5" id="Titulo " name="Titulo" placeholder="Titulo" type="text">
+                            <input class="form-control my-2" id="Año" name="Año" placeholder="Año" type="number">
+                            <input class="form-control my-2" id="Autor" name="Autor" placeholder="Autor" type="text">
+                            <input class="form-control my-2" id="NAutor" name="NAutor" placeholder="Nacionalidad del Autor" type="text">
+                            <button class="btn btn-success my-2" type="submit">Enviar</button>
+                            <button class="btn btn-dark my-2" type="reset">Limpiar</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="bg-dark text-light py-3 fixed-bottom">
+
+            <div class="container">
+
+              <div class="row">
+
+                <div class="col-md-6">
+                  <p>©Lix</p>
+                </div>
+
+                <div class="col-md-6 text-md-end">
+                  <p>Derechos de autor © 2023 Todos los derechos reservados</p>
+                </div>
+
+              </div>
+
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>

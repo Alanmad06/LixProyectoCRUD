@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LIX: Inicio</title>
+
+        <link rel="icon" type="image/x-icon" href="./img/logo.png">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <style>
+
+            .navbar {
+                background-image: url('../img/libros1.jpg');
+                background-position: 50% 30%;
+                height: 80px; 
+            }
+            .boton {
+                background-color: #E7B459;
+                border-color: #B58D46;
+                color: black;
+            }
+            
+        </style>
+        
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="../index.html">LIX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Libros
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="librosInsertar.html">Ingresar Libros</a></li>
+                              <li><a class="dropdown-item" href="librosActualizar.html">Actualizar Libros</a></li>
+                              <li><a class="dropdown-item" href="../php/librosVer.php">Ver Libros</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a>
+                        </li>
+                        
+                    </ul>
+
+                    <input class="btn btn-success d-flex" type="button" value="Registrarse"
+                    onclick="location.href='registro.html'">
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="container my-5">
+
+            <center>
+                
+                <h1>LIX: El enlace perfecto entre libros y lectores</h1>
+                <img src="../img/logo.png" alt="Logo LIX" style="width: 30%;">
+                
+            </center>
+            
+
+            <div class="row">
+
+                <div class="col-md-9 my-3">
+
+                    <h2>¡Te damos la bienvenida a LIX!</h2>
+
+                    <div class="shadow my-3 p-3 mb-5 bg-white rounded" >
+                        <p>
+                            Si eres un amante de la literatura, este es tu espacio virtual ideal.
+                            Aquí podrás explorar el mundo de los libros y los autores, conocer sus
+                            obras, sus biografías, sus estilos y sus influencias. Además, podrás
+                            interactuar con la base de datos, añadiendo nuevos libros y autores,
+                            modificando los datos existentes o eliminando los que ya no te interesen.
+                        </p>
+                        <p>
+                            En LIX encontrarás una gran variedad de géneros literarios, desde clásicos
+                            hasta contemporáneos, desde poesía hasta novela, desde ensayo hasta teatro.
+                            Podrás buscar por título, autor, año de publicación o palabra clave. También
+                            podrás acceder a reseñas, noticias, cursos y concursos literarios.
+                        </p>
+                        <p>
+                            LIX es una comunidad de lectores y escritores que comparten su pasión por
+                            la literatura. Podrás comentar tus lecturas, recomendar tus libros favoritos,
+                            participar en foros y grupos de discusión, y conocer a otras personas con tus
+                            mismos gustos e intereses.
+                        </p>
+                        <p>
+                            No esperes más y únete a LIX, el sitio web donde la literatura es protagonista. ¡Te esperamos!
+                            😊
+                        </p>
+                    </div>
+
+                    <input class="btn btn-primary boton" type="button" value="Registrarse"
+                        onclick="location.href='src/registro.html'">
+                </div>
+
+                <div class="col-md-3 my-5">
+                    <img src="../img/anuncio.png" alt="Bodega Aurrera la campeona de los precios bajos">
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="bg-dark text-light py-3">
+
+            <div class="container">
+
+              <div class="row">
+
+                <div class="col-md-6">
+                  <p>©Lix</p>
+                </div>
+
+                <div class="col-md-6 text-md-end">
+                  <p>Derechos de autor © 2023 Todos los derechos reservados</p>
+                </div>
+
+              </div>
+
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>
